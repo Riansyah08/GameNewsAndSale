@@ -1,0 +1,123 @@
+h1 {
+    text-align: center;
+    position: absolute;
+    display: flex;
+    column-gap: normal
+    ;
+}
+body{
+    background-color: #333;
+}
+
+#product1 {
+    text-align: center;
+    font-family: fantasy;
+}
+#product1 .pro-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+#product1 .pro {
+   width: 23%;
+   min-width: 250px;
+   padding: 10px 12px;
+   border: 1px solid #cce7d0;
+   border-radius: 25px;
+   cursor: pointer;
+   box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+   margin: 15px 0px;
+   transition: 0.2 ease;
+}
+#product1 .pro:hover {
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.08);
+}
+
+#product1 .pro img {
+    width: 100%;
+    border-radius: 20px;
+    
+ }
+
+#product1 .pro .des {
+        text-align: start;
+        padding: 10px 0px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+     }
+
+ #product1 .pro .des p {
+    color: #606063;
+    font-size: 30px;
+    height: 20px;
+ }
+ 
+ #product1 .pro .des h5 {
+    height: 3px;
+    padding-top: 7px;
+    color: #1a1a1a;
+    font-size: 14px;
+ }
+
+ #product1 .pro .des i {
+    font: 12px;
+    color: rgb(243, 181, 25);
+ }
+
+ #product1 .pro .des h4 {
+    height: 10px;
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #088178;
+ }
+
+/* for tablets */
+@media only screen and (min-width: 600px) {
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+}
+
+/* for desktops */
+@media only screen and (min-width: 768px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+/* for gaming */
+@media only screen and (min-width: 1200px) {
+    .col-x-1 {width: 8.33%;}
+    .col-x-2 {width: 16.66%;}
+    .col-x-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}

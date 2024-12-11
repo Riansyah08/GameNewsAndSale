@@ -1,0 +1,149 @@
+
+.container-MPL {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color:white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the header */
+h1 {
+    font-size: 36px;
+    color: black;
+    text-align: center;
+}
+
+/* Style the main content section */
+.mpl-winner {
+    margin-top: 20px;
+}
+
+.mpl-winner h2 {
+    font-size: 24px;
+    color: black;
+}
+
+.mpl-image {
+    text-align: center;
+}
+
+.img {
+    max-width: 100%;
+    height: auto;
+}
+
+.mpl-notes p {
+    font-size: 16px;
+    color: black;
+    line-height: 1.5;
+}
+
+/* Style the "Upcoming Tournament" section */
+.upcomingturney {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.upcomingturney h2 {
+    font-size: 24px;
+    color: black;
+}
+
+.mpli {
+    max-width: 200px;
+    height: auto;
+}
+
+h2{
+    text-align: left;
+    color: white;
+}
+
+/* Add more styles as needed */
+
+/* Style links */
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.mworldpic{
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    text-align: left;
+    color:black;
+}
+
+.caruoselExampleIndicators{
+    max-width: 100%;
+    height: fit-content;
+}
+
+h3 {
+    color: black;
+    text-align: left;
+    font-size: 24px;
+}
+
+h1 {
+    background-color: #333;
+    color: white;
+    padding: 24px;
+
+}
+
+/* for tablets */
+@media only screen and (min-width: 600px) {
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+}
+
+/* for desktops */
+@media only screen and (min-width: 768px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+/* for gaming */
+@media only screen and (min-width: 1200px) {
+    .col-x-1 {width: 8.33%;}
+    .col-x-2 {width: 16.66%;}
+    .col-x-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
